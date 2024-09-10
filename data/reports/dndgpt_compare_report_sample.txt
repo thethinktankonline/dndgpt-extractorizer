@@ -1,0 +1,68 @@
+Comparison Report
+Files compared: ..\data\finished_spreadsheets\dndgpt_monsters_7.csv and ..\data\finished_spreadsheets\dndgpt_monsters_6.csv
+Timestamp: 2024-09-10 09:45:41
+Differences found! The files differ in 5.13% of the data.
+Total rows compared: 206
+Total columns compared: 45
+Total cells compared: 9270
+Total differing cells: 476
+Columns with differences: 56
+
+Summary of Differences by Column:
+                                            Total Differences  Difference Percentage
+monster_type                         self                  22              10.679612
+                                     other                 22              10.679612
+monster_alignment                    self                  18               8.737864
+                                     other                 18               8.737864
+monster_str                          other                  1               0.485437
+monster_con                          other                  1               0.485437
+monster_int                          self                   1               0.485437
+                                     other                  1               0.485437
+monster_wis                          other                  1               0.485437
+monster_saving_throws                self                  28              13.592233
+                                     other                 27              13.106796
+monster_damage_resistances           self                   1               0.485437
+                                     other                  1               0.485437
+monster_damage_immunities            self                   2               0.970874
+                                     other                  3               1.456311
+monster_condition_immunities         self                   1               0.485437
+                                     other                  2               0.970874
+monster_senses                       self                   2               0.970874
+                                     other                  2               0.970874
+monster_languages                    self                   1               0.485437
+                                     other                  1               0.485437
+monster_skills                       self                   1               0.485437
+                                     other                  3               1.456311
+monster_challenge_rating             self                   4               1.941748
+                                     other                  4               1.941748
+monster_unique_ability_paragraph_1   self                  10               4.854369
+                                     other                 10               4.854369
+monster_unique_ability_paragraph_2   self                  10               4.854369
+                                     other                 11               5.339806
+monster_unique_ability_paragraph_3   self                   6               2.912621
+                                     other                  8               3.883495
+monster_unique_ability_paragraph_4   self                   3               1.456311
+                                     other                  5               2.427184
+monster_unique_ability_paragraph_5   self                   1               0.485437
+                                     other                  2               0.970874
+monster_unique_ability_paragraph_6   other                  1               0.485437
+monster_action_paragraph_1           self                  22              10.679612
+                                     other                 21              10.194175
+monster_action_paragraph_2           self                  26              12.621359
+                                     other                 24              11.650485
+monster_action_paragraph_3           self                  22              10.679612
+                                     other                 20               9.708738
+monster_action_paragraph_4           self                  13               6.310680
+                                     other                 12               5.825243
+monster_action_paragraph_5           self                   8               3.883495
+                                     other                  7               3.398058
+monster_action_paragraph_6           self                   1               0.485437
+                                     other                  1               0.485437
+monster_legendary_action_paragraph_1 self                   7               3.398058
+                                     other                  7               3.398058
+monster_legendary_action_paragraph_2 self                   7               3.398058
+                                     other                  6               2.912621
+monster_legendary_action_paragraph_3 self                   7               3.398058
+                                     other                  6               2.912621
+monster_legendary_action_paragraph_4 self                   4               1.941748
+                                     other                  3               1.456311
