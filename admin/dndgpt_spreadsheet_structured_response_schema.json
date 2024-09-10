@@ -1,0 +1,228 @@
+{
+  "name": "structure_monster_info_response",
+  "description": "Structure the monster's info and output it as a JSON.",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "monster_unique_id": {
+        "type": "string",
+        "description": "Unique ID for the monster in our database, e.g., 'dndgpt_mon_0001'. This is a unique field."
+      },
+      "monster_parent": {
+        "type": "string",
+        "description": "The general category or type of monster, e.g., 'Dragon'. This is a unique field in our database."
+      },
+      "monster_name": {
+        "type": "string",
+        "description": "The name of the monster."
+      },
+      "monster_origin": {
+        "type": "string", 
+        "description": "The origin of the information. Defaults to 'srd 5.1'"
+      },
+      "monster_type": {
+        "type": "string",
+        "description": "The type of monster, distinct from monster_parent but similar, e.g., 'Beast', 'Undead'."
+      },
+      "monster_alignment": {
+        "type": "string",
+        "description": "The alignment of the monster, e.g., 'Chaotic Evil'."
+      },
+      "monster_ac": {
+        "type": "string",
+        "description": "The armor class of the monster, e.g., '15 (natural armor)'."
+      },
+      "monster_hp": {
+        "type": "string",
+        "description": "The hit points of the monster including hit dice, e.g., '136 (16d8 + 64)'."
+      },
+      "monster_speed": {
+        "type": "string",
+        "description": "The speed of the monster, including different movement types, e.g., '30 ft., fly 60 ft.'."
+      },
+      "monster_str": {
+        "type": "string",
+        "description": "Strength (STR) ability score with bonus, e.g., '18 (+4)'."
+      },
+      "monster_dex": {
+        "type": "string",
+        "description": "Dexterity (DEX) ability score with bonus, e.g., '14 (+2)'."
+      },
+      "monster_con": {
+        "type": "string",
+        "description": "Constitution (CON) ability score with bonus, e.g., '16 (+3)'."
+      },
+      "monster_int": {
+        "type": "string",
+        "description": "Intelligence (INT) ability score with bonus, e.g., '10 (+0)'."
+      },
+      "monster_wis": {
+        "type": "string",
+        "description": "Wisdom (WIS) ability score with bonus, e.g., '12 (+1)'."
+      },
+      "monster_cha": {
+        "type": "string",
+        "description": "Charisma (CHA) ability score with bonus, e.g., '11 (+0)'."
+      },
+      "monster_saving_throws": {
+        "type": "string",
+        "description": "Any saving throw proficiencies, e.g., 'Dex +5, Wis +4'."
+      },
+      "monster_damage_vulnerabilities": {
+        "type": "string",
+        "description": "Any damage vulnerabilities, e.g., 'fire'."
+      },
+      "monster_damage_resistances": {
+        "type": "string",
+        "description": "Any damage resistances, e.g., 'cold, fire'."
+      },
+      "monster_damage_immunities": {
+        "type": "string",
+        "description": "Any damage immunities, e.g., 'poison'."
+      },
+      "monster_condition_immunities": {
+        "type": "string",
+        "description": "Any condition immunities, e.g., 'charmed, frightened'."
+      },
+      "monster_senses": {
+        "type": "string",
+        "description": "Senses available to the monster, e.g., 'darkvision 60 ft., passive Perception 15'."
+      },
+      "monster_languages": {
+        "type": "string",
+        "description": "Languages the monster can speak or understand, e.g., 'Common, Draconic'."
+      },
+      "monster_skills": {
+        "type": "string",
+        "description": "Any skill proficiencies, e.g., 'Perception +5, Stealth +6'."
+      },
+      "monster_challenge_rating": {
+        "type": "string",
+        "description": "The challenge rating of the monster, e.g., '5 (1,800 XP)'."
+      },
+      "monster_unique_ability_paragraph_1": {
+        "type": "string",
+        "description": "First paragraph of a unique ability. Unique field."
+      },
+      "monster_unique_ability_paragraph_2": {
+        "type": "string",
+        "description": "Second paragraph of a unique ability. Unique field."
+      },
+      "monster_unique_ability_paragraph_3": {
+        "type": "string",
+        "description": "Third paragraph of a unique ability. Unique field."
+      },
+      "monster_unique_ability_paragraph_4": {
+        "type": "string",
+        "description": "Fourth paragraph of a unique ability. Unique field."
+      },
+      "monster_unique_ability_paragraph_5": {
+        "type": "string",
+        "description": "Fifth paragraph of a unique ability. Unique field."
+      },
+      "monster_unique_ability_paragraph_6": {
+        "type": "string",
+        "description": "Sixth paragraph of a unique ability. Unique field."
+      },
+      "monster_unique_ability_paragraph_7": {
+        "type": "string",
+        "description": "Seventh paragraph of a unique ability. Unique field."
+      },
+      "monster_action_paragraph_1": {
+        "type": "string",
+        "description": "First action description. Unique field."
+      },
+      "monster_action_paragraph_2": {
+        "type": "string",
+        "description": "Second action description. Unique field."
+      },
+      "monster_action_paragraph_3": {
+        "type": "string",
+        "description": "Third action description. Unique field."
+      },
+      "monster_action_paragraph_4": {
+        "type": "string",
+        "description": "Fourth action description. Unique field."
+      },
+      "monster_action_paragraph_5": {
+        "type": "string",
+        "description": "Fifth action description. Unique field."
+      },
+      "monster_action_paragraph_6": {
+        "type": "string",
+        "description": "Sixth action description. Unique field."
+      },
+      "monster_action_paragraph_7": {
+        "type": "string",
+        "description": "Seventh action description. Unique field."
+      },
+      "monster_legendary_action_paragraph_1": {
+        "type": "string",
+        "description": "First legendary action description. Unique field."
+      },
+      "monster_legendary_action_paragraph_2": {
+        "type": "string",
+        "description": "Second legendary action description. Unique field."
+      },
+      "monster_legendary_action_paragraph_3": {
+        "type": "string",
+        "description": "Third legendary action description. Unique field."
+      },
+      "monster_legendary_action_paragraph_4": {
+        "type": "string",
+        "description": "Fourth legendary action description. Unique field."
+      },
+      "monster_legendary_action_paragraph_5": {
+        "type": "string",
+        "description": "Fifth legendary action description. Unique field."
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "monster_unique_id",
+      "monster_parent",
+      "monster_name",
+      "monster_origin",
+      "monster_type",
+      "monster_alignment",
+      "monster_ac",
+      "monster_hp",
+      "monster_speed",
+      "monster_str",
+      "monster_dex",
+      "monster_con",
+      "monster_int",
+      "monster_wis",
+      "monster_cha",
+      "monster_saving_throws",
+      "monster_damage_vulnerabilities",
+      "monster_damage_resistances",
+      "monster_damage_immunities",
+      "monster_condition_immunities",
+      "monster_senses",
+      "monster_languages",
+      "monster_skills",
+      "monster_challenge_rating",
+      "monster_unique_ability_paragraph_1",
+      "monster_unique_ability_paragraph_2",
+      "monster_unique_ability_paragraph_3",
+      "monster_unique_ability_paragraph_4",
+      "monster_unique_ability_paragraph_5",
+      "monster_unique_ability_paragraph_6",
+      "monster_unique_ability_paragraph_7",
+      "monster_action_paragraph_1",
+      "monster_action_paragraph_2",
+      "monster_action_paragraph_3",
+      "monster_action_paragraph_4",
+      "monster_action_paragraph_5",
+      "monster_action_paragraph_6",
+      "monster_action_paragraph_7",
+      "monster_legendary_action_paragraph_1",
+      "monster_legendary_action_paragraph_2",
+      "monster_legendary_action_paragraph_3",
+      "monster_legendary_action_paragraph_4",
+      "monster_legendary_action_paragraph_5"
+    ]
+  }
+}
