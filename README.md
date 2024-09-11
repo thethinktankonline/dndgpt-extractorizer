@@ -15,7 +15,7 @@ Finally, the CSV is to be used to help condense the [dndGPT, a customGPT on Chat
 # Prerequisites
 - This script requires roughly $1.00 USD worth of API calls to OpenAI's GPT 4o mini.
 - It uses two (2) different Assistants. The System Instructions, and the JSON schema for these Assistants can be found in the Admin folder of this Repository. 
-- The script requires a pre-populated list of the names to search, which is provided, as dndgpt_monsters.csv, and dndgpt_monsters_starter.csv. See "Issues" for more information. 
+- The script requires a pre-populated list of the names to search, which is provided, as dndgpt_monsters.csv, and dndgpt_monsters_starter.csv. [See "Issues" for more information](https://github.com/thethinktankonline/dndgpt-extractorizer/issues/1). 
 
 # How it Works
 1. This script starts a few timers (for later analysis) and a kill switch if you want to exit or there's an error. 
@@ -34,7 +34,7 @@ The structured output with normalization is exceptionally accurate at making sur
 
 # Resources
 This project was very much supported by a variety of different resources. 
-* [The Dungeons and Dragon's SRD] ([https://media.wizards.com/2023/downloads/dnd/SRD_CC_v5.1.pdf](https://www.dndbeyond.com/resources/1781-systems-reference-document-srd)
+* [The Dungeons and Dragon's SRD](https://www.dndbeyond.com/resources/1781-systems-reference-document-srd)
 * The OpenAI Docs, Cookbook, and 
-* [Linkedin Learning (Which is where the spinner came from) amongst other things.] (https://www.linkedin.com/learning/openai-api-building-assistants/)
-* [The Python CustomGPT] (https://chatgpt.com/g/g-cKXjWStaE-python)
+* [Linkedin Learning (Which is where the spinner came from) amongst other things.](https://www.linkedin.com/learning/openai-api-building-assistants/)
+* [The Python CustomGPT](https://chatgpt.com/g/g-cKXjWStaE-python)
