@@ -15,8 +15,8 @@ Personally, I find it much easier to work with Assistants via https://platform.o
 ## How to Build Assistant 1
 
 1. Create a new Assistant on https://platform.openai.com. 
-2. Copy and paste [dndgpt_monster_assistant_instructions.txt] (/admin/dndgpt_monster_assistant_instructions.txt) into the Assistant's System Instructions.
-3. Upload the knowledge base to File Store, [dndgpt_srd_cc_v5.1_monstersatok.pdf] (/admin/dndgpt_srd_cc_v5.1_monsters_atok.pdf) and [dndgpt_srd_cc_v5.1_monsters_ltoz.pdf] (dndgpt_srd_cc_v5.1_monsters_ltoz.pdf).
+2. Copy and paste [dndgpt_monster_assistant_instructions.txt] (admin/dndgpt_monster_assistant_instructions.txt) into the Assistant's System Instructions.
+3. Upload the knowledge base to File Store, [dndgpt_srd_cc_v5.1_monstersatok.pdf](admin/dndgpt_srd_cc_v5.1_monsters_atok.pdf) and [dndgpt_srd_cc_v5.1_monsters_ltoz.pdf](admin/dndgpt_srd_cc_v5.1_monsters_ltoz.pdf).
 4. Create a Vector Store from the files and attach it to the First Assistant.
 5. Response Format: Text
 6. I've been experimenting with Temperature = 0.5, and Top P = 0 to reduce variation in the response.
@@ -43,6 +43,6 @@ It uses [response_format](https://platform.openai.com/docs/guides/structured-out
 5. Record the Assistant ID and add it to the .env file as DNDGPT_MONSTER_ASSISTANT_STRUCTURED_OUTPUT_ID.
 
 ## Notes on Assistant 2
-Structured Output has proven wildly accurate. In 7 complete runs (so far) there have been zero issues with properly structuing the values of the response and assigning them to the appropriate column in the spreadsheet. The biggest challenge here has been variability in actual content, and the ocassional use of illegal characters. 
+Structured Output has proven wildly accurate. In 7 complete runs (so far) there have been zero issues with properly structuing the values of the response and assigning them to the appropriate column in the spreadsheet. The biggest challenge here has been variability in the actual content, and the ocassional use of illegal characters. 
 
 The latter has been solved by programatically normalizing the line before it is added to the spreadsheet. The former is detailed in "issues." 
