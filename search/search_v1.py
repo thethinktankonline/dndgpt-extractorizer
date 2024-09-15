@@ -5,7 +5,7 @@ import json
 import sys
 import time
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import OpenAI #Requires 1.43.0 or later.
 from pprint import pprint
 
 # Quick Introduction
