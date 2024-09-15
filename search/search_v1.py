@@ -11,7 +11,7 @@ from pprint import pprint
 # Quick Introduction
 print("\n********************************************************\n*\n*\n*   Welcome to the dndGPT Name Search \n*\n*\n********************************************************")
 
-# Makes things look nice. Repeated here for practice. 
+# Pretty Printing Json Objects 
 def pretty_json(obj):
     # Assuming obj is a dictionary or an object that can be converted to a dictionary
     if hasattr(obj, "to_dict"): 
@@ -30,6 +30,7 @@ load_dotenv(dotenv_path)
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Get Assistant ID From .env
+# Assistant Instructions can be found in searchreadme.md
 assistant = os.getenv('DNDGPT_NAME_LOOKUP_ID')
 
 # Retrieve Assistant from Open AI
